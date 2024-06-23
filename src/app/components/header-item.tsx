@@ -16,10 +16,10 @@ export const HeaderItem = ({
     <a
       href={href}
       className={classnames(
-        "text-text-secondary font-body hover:text-text-primary transition-colors focus:outline focus:outline-text-primary focus:outline-2 rounded-xl p-2",
+        "rounded-xl p-2 font-body text-text-secondary transition-colors hover:text-text-primary focus:outline focus:outline-2 focus:outline-text-primary",
         {
           "font-medium": isActive,
-        }
+        },
       )}
     >
       {children}
