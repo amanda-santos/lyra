@@ -20,6 +20,10 @@ const config: Config = {
       "text-primary": "#F5F6F6",
       "text-secondary": "#CDD0D4",
     },
+    fontFamily: {
+      body: ["var(--font-body)"],
+      heading: ["var(--font-heading)"],
+    },
   },
   plugins: [],
 };
