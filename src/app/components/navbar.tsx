@@ -11,7 +11,7 @@ export const Navbar = () => {
       <NavbarItem>Contact</NavbarItem>
       <NavbarItem>PT-BR</NavbarItem>
       <NavbarItem>
-        <Sun />
+        <Sun size={20} />
       </NavbarItem>
     </nav>
   );

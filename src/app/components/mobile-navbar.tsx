@@ -14,7 +14,7 @@ export const MobileNavbar = () => {
   return (
     <nav className="flex flex-col items-center gap-4 lg:hidden">
       <NavbarItem onClick={handleMenuClick}>
-        {isMenuOpen ? <X /> : <List />}
+        {isMenuOpen ? <X size={20} /> : <List size={20} />}
       </NavbarItem>
 
       {isMenuOpen && (
@@ -24,7 +24,7 @@ export const MobileNavbar = () => {
           <NavbarItem>Projects</NavbarItem>
           <NavbarItem>Contact</NavbarItem>
           <NavbarItem>
-            <Sun />
+            <Sun size={20} />
           </NavbarItem>
         </>
       )}
