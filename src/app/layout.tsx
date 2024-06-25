@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-surface-background">
       <body className={`${heebo.variable} ${kalam.variable}`}>
         <Header />
         {children}

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between bg-surface-background px-10">
+    <main className="flex min-h-screen flex-col items-center justify-between px-8">
       <div className="flex w-full flex-col items-center justify-between gap-6 py-24 md:flex-row-reverse lg:px-16">
         <Image
           src="/programmer-illustration.svg"
@@ -28,12 +28,12 @@ export default function Home() {
           </span>
 
           <div className="flex items-center gap-4">
-            <button className="flex items-center gap-2 rounded-lg bg-surface-secondary px-6 py-4 font-body font-medium text-text-primary transition-colors hover:bg-surface-tertiary focus:outline-offset-4 focus:outline-text-primary">
+            <button className="flex items-center gap-2 rounded-lg bg-surface-secondary px-4 py-4 font-body text-sm font-medium text-text-primary transition-colors hover:bg-surface-tertiary focus:outline-offset-4 focus:outline-text-primary md:px-6 md:text-base">
               <ReadCvLogo size={24} />
               My resume
             </button>
 
-            <button className="flex items-center gap-2 rounded-lg bg-primary-color-500 px-6 py-4 font-body font-medium text-text-primary transition-colors hover:bg-primary-color-400 focus:outline-offset-4 focus:outline-text-primary">
+            <button className="px flex items-center gap-2 rounded-lg bg-primary-color-500 px-4 py-4 font-body text-sm font-medium text-text-primary transition-colors hover:bg-primary-color-400 focus:outline-offset-4 focus:outline-text-primary md:px-6 md:text-base">
               Get in touch
               <ArrowRight size={24} />
             </button>
