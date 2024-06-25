@@ -1,5 +1,5 @@
 import classnames from "classnames";
-import { ComponentProps, ReactNode } from "react";
+import { ComponentProps } from "react";
 
 type NavbarItemProps = ComponentProps<"a"> & {
   isActive?: boolean;
