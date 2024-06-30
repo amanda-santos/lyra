@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const HeroSection = () => (
   <>
-    <div className="flex w-full flex-col items-center justify-between gap-6 py-24 md:flex-row-reverse lg:px-16">
+    <div className="flex w-full flex-col items-center justify-between gap-6 py-36 md:flex-row-reverse lg:px-16">
       <Image
         src="/programmer-illustration.svg"
         alt=""
