@@ -1,5 +1,6 @@
 import { ReadCvLogo } from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
+import { Button } from "../core/button";
 
 export const AboutMeSection = () => {
   return (
@@ -34,10 +35,10 @@ export const AboutMeSection = () => {
           </p>
         </div>
 
-        <button className="flex w-fit items-center gap-2 rounded-lg bg-primary-color-500 px-4 py-4 font-body text-sm font-medium text-text-primary transition-colors hover:bg-primary-color-400 focus:outline-offset-4 focus:outline-text-primary md:px-6 md:text-base">
+        <Button className="w-fit">
           <ReadCvLogo size={24} />
           My resume
-        </button>
+        </Button>
       </div>
     </section>
   );

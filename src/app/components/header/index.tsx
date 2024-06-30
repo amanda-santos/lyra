@@ -1,4 +1,4 @@
-import { MobileNavbar } from "./mobile-navbar";
+import { MobileNavbar } from "./navbar/mobile-navbar";
 import { Navbar } from "./navbar";
 
 export const Header = () => {

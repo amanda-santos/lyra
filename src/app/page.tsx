@@ -1,5 +1,5 @@
-import { AboutMeSection } from "./components/about-me-section";
-import { HeroSection } from "./components/hero-section";
+import { AboutMeSection } from "./components/sections/about-me-section";
+import { HeroSection } from "./components/sections/hero-section";
 
 export default function Home() {
   return (
