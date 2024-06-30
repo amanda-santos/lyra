@@ -45,7 +45,7 @@ export const HeroSection = () => (
       alt=""
       width={120}
       height={32}
-      className="absolute right-20 top-[880px] rotate-[130deg] animate-pulse md:right-[280px] md:top-[500px] lg:right-[400px] lg:top-[540px] xl:right-[480px] xl:top-[640px]"
+      className="absolute right-20 top-[880px] rotate-[130deg] animate-pulse md:right-[280px] md:top-[500px] lg:right-[400px] lg:top-[540px] xl:right-[480px] xl:top-[600px]"
     />
   </>
 );

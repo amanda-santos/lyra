@@ -29,6 +29,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-surface-background">
+      <head>
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+        />
+      </head>
       <body className={`${heebo.variable} ${kalam.variable}`}>
         <Header />
         {children}
