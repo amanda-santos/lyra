@@ -17,7 +17,7 @@ export const HeroSection = () => (
           Hi, I&apos;m Amanda
         </h1>
         <span className="my-8 flex flex-col gap-4">
-          <h2 className="font-body text-2xl text-text-primary">
+          <h2 className="font-body text-2xl font-medium text-text-primary">
             Full-stack developer and innovation enthusiast
           </h2>
           <p className="font-body text-text-secondary">

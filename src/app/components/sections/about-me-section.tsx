@@ -22,7 +22,7 @@ export const AboutMeSection = () => {
 
         <div>
           <h3 className="mb-2 font-heading text-secondary-color">About me</h3>
-          <h2 className="mb-4 font-body text-2xl text-text-primary">
+          <h2 className="mb-4 font-body text-2xl font-medium text-text-primary">
             I’m a passionate software developer looking for my first
             international opportunity
           </h2>
