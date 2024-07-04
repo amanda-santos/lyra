@@ -16,9 +16,6 @@ export const ProjectsSection = () => {
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
       </div>
 
       <Button variant="secondary">
