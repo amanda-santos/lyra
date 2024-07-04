@@ -4,7 +4,7 @@ import { ProjectCard } from "../core/project-card";
 
 export const ProjectsSection = () => {
   return (
-    <section className="my-20 flex flex-col items-center justify-center gap-10">
+    <section className="my-20 flex max-w-screen-2xl flex-col items-center justify-center gap-10">
       <div className="flex flex-col items-center justify-center gap-2">
         <h3 className="font-heading text-secondary-color">Projects</h3>
         <h2 className="font-body text-2xl font-medium text-text-primary">
@@ -13,6 +13,9 @@ export const ProjectsSection = () => {
       </div>
 
       <div className="flex flex-wrap items-center justify-center gap-8">
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />

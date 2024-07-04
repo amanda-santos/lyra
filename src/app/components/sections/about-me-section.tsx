@@ -4,7 +4,7 @@ import { Button } from "../core/button";
 
 export const AboutMeSection = () => {
   return (
-    <section className="flex w-full flex-col items-center justify-between gap-10 rounded-2xl bg-surface-primary px-8 py-12 sm:p-20 lg:flex-row">
+    <section className="flex w-full max-w-screen-2xl flex-col items-center justify-between gap-10 rounded-2xl bg-surface-primary px-8 py-12 sm:p-20 lg:flex-row">
       <Image
         src="/programmer-with-cat-illustration.svg"
         alt=""

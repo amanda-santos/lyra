@@ -3,8 +3,8 @@ import Image from "next/image";
 import { Button } from "../core/button";
 
 export const HeroSection = () => (
-  <>
-    <div className="flex w-full flex-col items-center justify-between gap-6 py-36 md:flex-row-reverse lg:px-16">
+  <div className="relative max-w-screen-2xl py-36 lg:px-12">
+    <div className="flex w-full flex-col items-center justify-between gap-6 md:flex-row-reverse">
       <Image
         src="/programmer-illustration.svg"
         alt=""
@@ -46,7 +46,7 @@ export const HeroSection = () => (
       alt=""
       width={120}
       height={32}
-      className="absolute right-20 top-[880px] rotate-[130deg] animate-pulse md:right-[280px] md:top-[500px] lg:right-[400px] lg:top-[540px] xl:right-[480px] xl:top-[600px]"
+      className="absolute right-20 top-[880px] rotate-[130deg] animate-pulse md:right-[280px] md:top-[500px] lg:right-[400px] lg:top-[500px] xl:top-[600px]"
     />
-  </>
+  </div>
 );
