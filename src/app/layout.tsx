@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Heebo, Kalam } from "next/font/google";
 
 import { Header } from "./components/header";
+import { Footer } from "./components/footer";
 
 import "./globals.css";
 
@@ -39,6 +40,7 @@ export default function RootLayout({
       <body className={`${heebo.variable} ${kalam.variable}`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

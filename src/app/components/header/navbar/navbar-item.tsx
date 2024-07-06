@@ -12,17 +12,17 @@ export const NavbarItem = ({
   ...props
 }: NavbarItemProps) => {
   return (
-    <a
-      href={href}
+    <li
       className={cn(
-        "rounded-xl p-2 font-body text-sm text-text-secondary transition-colors hover:text-text-primary focus:outline focus:outline-2 focus:outline-text-primary",
+        "rounded-xl p-2 font-body text-sm text-text-secondary transition-colors hover:cursor-pointer hover:text-text-primary focus:outline focus:outline-2 focus:outline-text-primary",
         {
           "font-medium": isActive,
         },
       )}
-      {...props}
     >
-      {children}
-    </a>
+      <a href={href} {...props}>
+        {children}
+      </a>
+    </li>
   );
 };

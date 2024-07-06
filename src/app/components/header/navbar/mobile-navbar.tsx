@@ -12,22 +12,24 @@ export const MobileNavbar = () => {
   };
 
   return (
-    <nav className="flex flex-col items-center gap-4 lg:hidden">
-      <NavbarItem onClick={handleMenuClick}>
-        {isMenuOpen ? <X size={20} /> : <List size={20} />}
-      </NavbarItem>
+    <nav className="block lg:hidden">
+      <ul className="flex flex-col items-center gap-4">
+        <NavbarItem onClick={handleMenuClick}>
+          {isMenuOpen ? <X size={20} /> : <List size={20} />}
+        </NavbarItem>
 
-      {isMenuOpen && (
-        <>
-          <NavbarItem isActive>Home</NavbarItem>
-          <NavbarItem>About</NavbarItem>
-          <NavbarItem>Projects</NavbarItem>
-          <NavbarItem>Contact</NavbarItem>
-          <NavbarItem>
-            <Sun size={20} />
-          </NavbarItem>
-        </>
-      )}
+        {isMenuOpen && (
+          <>
+            <NavbarItem isActive>Home</NavbarItem>
+            <NavbarItem>About</NavbarItem>
+            <NavbarItem>Projects</NavbarItem>
+            <NavbarItem>Contact</NavbarItem>
+            <NavbarItem>
+              <Sun size={20} />
+            </NavbarItem>
+          </>
+        )}
+      </ul>
     </nav>
   );
 };
