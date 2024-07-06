@@ -1,4 +1,4 @@
-import classNames from "classnames";
+import { cn } from "@/app/utils/cn";
 import { ComponentProps } from "react";
 
 type ButtonProps = ComponentProps<"button"> & {
@@ -13,7 +13,7 @@ export const Button = ({
 }: ButtonProps) => {
   return (
     <button
-      className={classNames(
+      className={cn(
         `flex items-center gap-2 rounded-lg bg-surface-secondary font-body text-sm font-medium text-text-primary transition-colors hover:bg-surface-tertiary focus:outline-offset-4 focus:outline-text-primary md:text-base ${className}`,
         {
           "bg-primary-color-500 hover:bg-primary-color-400":

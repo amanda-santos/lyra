@@ -1,4 +1,4 @@
-import classnames from "classnames";
+import { cn } from "@/app/utils/cn";
 import { ComponentProps } from "react";
 
 type NavbarItemProps = ComponentProps<"a"> & {
@@ -14,7 +14,7 @@ export const NavbarItem = ({
   return (
     <a
       href={href}
-      className={classnames(
+      className={cn(
         "rounded-xl p-2 font-body text-sm text-text-secondary transition-colors hover:text-text-primary focus:outline focus:outline-2 focus:outline-text-primary",
         {
           "font-medium": isActive,
