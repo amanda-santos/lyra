@@ -1,4 +1,5 @@
 import { ArrowUp } from "@phosphor-icons/react/dist/ssr";
+import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -19,9 +20,9 @@ export const Footer = () => {
             <a href="#">Instagram</a>
           </li>
           <li>
-            <button>
+            <Link href="#">
               <ArrowUp size={24} />
-            </button>
+            </Link>
           </li>
         </ul>
       </nav>

@@ -9,7 +9,10 @@ import { Button } from "../core/button";
 
 export const ContactSection = () => {
   return (
-    <section className="flex w-full max-w-screen-2xl flex-col items-start justify-between gap-10 rounded-2xl bg-surface-primary px-8 py-12 sm:p-20 lg:flex-row">
+    <section
+      className="flex w-full max-w-screen-2xl flex-col items-start justify-between gap-10 rounded-2xl bg-surface-primary px-8 py-12 sm:p-20 lg:flex-row"
+      id="contact"
+    >
       <div className="flex w-full flex-col gap-10">
         <Image src="/avatar.svg" alt="" width={160} height={160} />
         <div className="flex max-w-[592px] flex-col gap-4">
